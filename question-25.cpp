@@ -2,15 +2,13 @@
 using namespace std;
 bool areEqual(int arr[],int b[],int n)
 {
+   if(n%2==0)
+   {
+      return false;
+   }
    for(int i=0;i<n;i++)
    {
-      if(n%2==0)
-      {
-         return false;
-      }
-      if(arr[i]!=b[i])
-         return false;
-      else if(arr[i]==b[i] && arr[0]==1)
+      if(arr[i]==b[i] && arr[0]==1)
       {
          if(arr[i+1]-arr[i]==1) 
             return true;
@@ -43,6 +41,5 @@ int main(){
       else
          cout<<"no"<<endl;
    }
-  return 0;
 }
 
