@@ -1,4 +1,5 @@
 //https://www.codechef.com/CUPA2101/problems/CHEDIV
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
