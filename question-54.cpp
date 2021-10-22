@@ -1,4 +1,5 @@
 //Snack down Round 1A
+//https://www.codechef.com/SNCK1A21/problems/DANCEMOVES
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -10,19 +11,20 @@ int main(){
       int X,Y,count=0;
       cin>>X>>Y;
       int ans=X;
-      if(Y>X)
+      while(X!=Y)
       {
-         ans=X+2;
-         X=ans;
-         count++;
-         cout<<count<<endl;
-      }
-      else if(X>Y)
-      {
-         ans=X-1;
-         X=ans;
-         count++;
-         cout<<count<<endl;
+         if(Y>X)
+         {
+            ans=X+2;
+            X=ans;
+            count++;
+         }
+         else if(X>Y)
+         {
+            ans=X-1;
+            X=ans;
+            count++;
+         }
       }
       cout<<count<<endl;
    }
