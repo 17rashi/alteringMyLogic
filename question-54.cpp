@@ -1,26 +1,30 @@
+//Snack down Round 1A
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-   int n,count=0;
-   cin>>n;
-   int arr[n];
-   for(int i=0;i<n;i++)
+   int t;
+   cin>>t;
+   while(t--)
    {
-      cin>>arr[i];
-   }
-   for(int i=0;i<n;i++)
-   {
-      for(int j=i+1;j<n;j++)
+      int X,Y,count=0;
+      cin>>X>>Y;
+      int ans=X;
+      if(Y>X)
       {
-         if(i!=j)
-         {
-            if(arr[i]!=arr[j])
-            {
-               count++;
-            }
-         }
+         ans=X+2;
+         X=ans;
+         count++;
+         cout<<count<<endl;
       }
+      else if(X>Y)
+      {
+         ans=X-1;
+         X=ans;
+         count++;
+         cout<<count<<endl;
+      }
+      cout<<count<<endl;
    }
-   cout<<count<<endl;
   return 0;
 }
