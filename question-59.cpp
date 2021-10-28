@@ -1,38 +1,26 @@
+//https://www.codechef.com/problems/TWOVSTEN
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-   //editing required
-   int t;
+   long long int t;
    cin>>t;
    while(t--)
    {
-      int n,no=0,yes=0;
-      string str;
-      cin>>n>>str;
-      for(int i=0;i<str.length();i++)
+      long long int x;
+      cin>>x;
+      if(x%10==0)
       {
-         if(str[i]=='N')
-         {
-            no++;
-         }
-         else
-         {
-            yes++;
-         }
+         cout<<"0"<<endl;
       }
-      if(yes>no)
+      else if(x%5==0)
       {
-         cout<<"INDIAN"<<endl;
-      }
-      else if(yes<no)
-      {
-         cout<<"NOT INDIAN"<<endl;
+         cout<<"1"<<endl;
       }
       else
       {
-         cout<<"NOT SURE"<<endl;
-      }
-      
+         cout<<"-1"<<endl;
+      }   
    }
   return 0;
 }
