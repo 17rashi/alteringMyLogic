@@ -1,23 +1,30 @@
+//https://www.codechef.com/NOV21C/problems/CHEAPFUEL
 
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-   int t;
-   cin>>t;
-   while(t--){
-      int N,C,K,count=0,sum=0;
-      int arr[N];
-      for(int i=0;i<N;i++)
-      {
-         cin>>arr[i];
-      }
-      for(int i=0;i<N;i++)
-      {
-         if(sum<=C && sum>=K)
-         {
-            sum=arr[i]+arr[i+1];
-         }
-      }
-   }
+  int T;
+  cin>>T;
+  while(T--)
+  {
+    int X,Y,A,B,K;
+    cin>>X>>Y>>A>>B>>K;
+    int POP,POD;
+    POP=X+K*A;
+    POD=Y+K*B;
+    if(POP>POD)
+    {
+      cout<<"DIESEL"<<endl;
+    }
+    else if(POD>POP)
+    {
+      cout<<"PETROL"<<endl;
+    }
+    else
+    {
+      cout<<"SAME PRICE"<<endl;
+    }
+    
+  }
   return 0;
 }
