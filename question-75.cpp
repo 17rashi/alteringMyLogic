@@ -14,9 +14,11 @@ int main(){
       }
       for(int i=0;i<n-(k-1);i++)
       {
-         for(int j=i;j<arr[k];j++)
+         int m=(i-k+n);
+         
+         for(int j=i;j<m;j++)
          {
-            cout<<arr[j]<<" ";
+            
          }
          cout<<endl;
       }
