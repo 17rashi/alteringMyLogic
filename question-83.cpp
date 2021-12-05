@@ -6,8 +6,9 @@ int main(){
    int t;
    cin>>t;
    while(t--){
-       int str[3];
-
+       char A,B,C,X,Y;
+       cin>>A>>B>>C;
+       cin>>X>>Y;
    }
   return 0;
 }
