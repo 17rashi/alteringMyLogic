@@ -1,0 +1,14 @@
+## Day-1: 
+
+1. There are 5 lanes on a race track. 
+One needs to find out the 3 fastest horses among total of 25. 
+Find out the minimum number of races to be conducted in order to determine the fastest three.
+
+Answer: 7 
+
+2. There are 8 batteries, but only 4 of them work. 
+You have to use them for a flashlight which needs only 2 working batteries. 
+To guarantee that the flashlight is turned on, what is the minimum number of battery pairs you need to test?
+
+Answer: 7
+
