@@ -12,3 +12,36 @@ To guarantee that the flashlight is turned on, what is the minimum number of bat
 
 Answer: 7
 
+
+## Day-2
+
+1.  A birthday cake has to be equally divided into 8 equal
+pieces in exactly 3 cuts. Determine the way to make this division possible.
+
+Answer: First cut the cake into 4 equal parts and then split into two pieces.
+
+2. There are 2 jugs with 4 litres and 5 litres of water respectively. 
+The objective is to pour exactly 7 litres of water in a bucket. 
+How can it be accomplished?
+
+Answer: Following steps should follow: bucket, 5 litres-A, 4 litres-B.
+1. Transfer 4 litres in bucket.
+2. Transfer 4 litres in B.
+3. Move that 4 litres in bucket.
+4. Move 1 litres from bucket A to B.
+5. Move 5 litres from bucket to A.
+6. Move 3 litres to B and now B has 4 litres and bucket has 3 litres, so mix them in Bucket and now bucket has 7 litres.
+
+
+## Day-3
+
+1. 10. There are 3 switches in a room, where one of them is assigned for 
+a bulb in the next room. You can’t see whether the bulb is on or off, until you leave the room. 
+Find the minimum number of times you have to go into the room to identify which switch corresponds 
+to the bulb in the other room.
+
+Answer: Only once.
+
+2. Your task is to place 10 coconuts in 5 lines such that each line has 4 coconuts.
+
+Answer: Make a star and place coconuts on every corner/intersection point.
