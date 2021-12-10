@@ -45,3 +45,20 @@ Answer: Only once.
 2. Your task is to place 10 coconuts in 5 lines such that each line has 4 coconuts.
 
 Answer: Make a star and place coconuts on every corner/intersection point.
+
+## Day-4
+
+1. Four people need to cross a rickety bridge at night. Unfortunately, 
+they have only one torch and the bridge is too dangerous to cross without one. 
+The bridge is only strong enough to support two people at a time. Not all people take 
+the same time to cross the bridge. Times for each person: 1 min, 2 mins, 7 mins and 10 mins.
+
+Answer: 17 mins, 1+2+2+10+2=17
+
+2. There are 12 identical-looking coins. One of these coins is counterfeit 
+and is known to be lighter than the genuine coins. What is the minimum number of
+weighings needed to identify the fake coin with a two-pan balance scale without weights?
+
+Answer: 3 , First we divide the coins in 6-6 pairs the we find out the weight. We will take the 
+lighter weight and then again repeat the same process. At the end we will get 3 coins and we find weight of two. 
+If weight is equal then the third one is lighter one else one of them was lighter.
