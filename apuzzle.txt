@@ -62,3 +62,22 @@ weighings needed to identify the fake coin with a two-pan balance scale without 
 Answer: 3 , First we divide the coins in 6-6 pairs the we find out the weight. We will take the 
 lighter weight and then again repeat the same process. At the end we will get 3 coins and we find weight of two. 
 If weight is equal then the third one is lighter one else one of them was lighter.
+
+## Day-5
+
+1. There is a building of 100 floors. If an egg drops from the Nth floor or above it will break. 
+If it’s dropped from any floor below, it will not break. You’re given 2 eggs. Find N, while minimizing 
+the number of drops for the worst case.
+Note: These are very strong eggs because they can be dropped multiple times without breaking as long as 
+they are dropped from floors below their “threshold” floor, floor N. But once an egg is dropped from a 
+floor above it’s threshold floor, it will break. Find the minimum number of drops required to figure out N.
+
+Answer: 14
+
+2. A man (X) bought a product worth Rs 100 from the Shopkeeper (Y). He paid him through a 500 Rs Note. 
+Realizing that he did not have change, the shopkeeper Y got change for that note from another 
+shopkeeper (Z) and paid Rs 400 to the man.
+After a few days, Z realized that the note is fake, And this railed at Y and took 500 Rs back from him.
+So in this whole process how much money did Y loose in the end?
+
+Answer: 500/-
