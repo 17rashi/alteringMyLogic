@@ -81,3 +81,16 @@ After a few days, Z realized that the note is fake, And this railed at Y and too
 So in this whole process how much money did Y loose in the end?
 
 Answer: 500/-
+
+## Day-6
+
+1. Given six distinct colors, in how many unique ways can a six faced cube be painted such that 
+no two faces have the same color? Note: Mixing of colors is not allowed.
+
+Answer: 30
+
+2. There are three ants on a triangle, one at each corner. All ants randomly pick a direction and 
+start moving along the edge of the triangle. The probability that none of the ants collide is 1/K.
+What is the value of K?
+
+Answer: 4
