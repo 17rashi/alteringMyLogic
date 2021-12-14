@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+//https://mycode.prepbytes.com/problems/recursion/SEQUENCE
+
+#include<bits/stdc++.h>
 using namespace std;
 int sumofseq(int x,int m,int n){
    if(m==0)
