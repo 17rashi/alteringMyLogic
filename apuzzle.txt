@@ -94,3 +94,40 @@ start moving along the edge of the triangle. The probability that none of the an
 What is the value of K?
 
 Answer: 4
+
+## Day-7
+
+1. There are two tribes in Mars, Lie tribe and Truth Tribe.
+Lie tribe always speaks lie, True tribe always speaks truth.
+You meet three mars people and ask from the first Person:
+
+Question : What tribe do you belong to?
+
+He replies something in his language which you don’t understand. 
+The Second person tells you that he is saying that he belongs to Lie Tribe. 
+Third person says that the second person is lying.
+
+Answer: Truth tribe
+
+2. Two MIT math grads bump into each other at Fairway on the upper west side. 
+They haven’t seen each other in over 20 years.
+
+The first grad says to the second: “how have you been?”
+Second: “great! i got married and i have three daughters now”
+First: “really? how old are they?”
+Second: “well, the product of their ages is 72, and the sum of their ages is the same as the number on that building over there..”
+First: “right, ok.. oh wait.. hmm, i still don’t know”
+Second: “oh sorry, the oldest one just started to play the piano”
+First: “wonderful! my oldest is the same age!”How old are the daughters?
+
+How old are the daughters ?
+
+Answer: 3 3 8
+72,1,1 - sum = 74
+36,2,1 - sum = 39
+18,2,2 - sum = 22
+18,4,1 - sum = 23
+9,8,1  - sum = 18
+9,4,2  - sum = 15
+8,3,3  - sum = 14
+6,6,2  - sum = 14
