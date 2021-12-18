@@ -131,3 +131,23 @@ Answer: 3 3 8
 9,4,2  - sum = 15
 8,3,3  - sum = 14
 6,6,2  - sum = 14
+
+## Day-8
+1. 100 prisoners stand in line, one in front of the other, each wearing either a 
+red hat or a blue hat. Every prisoner can see the hats of the people in front but
+not their own hat, or the hats worn by anyone behind. A prison guard starts at the 
+back of the line and asks each prisoner the color of their hat. If they answer correctly, 
+they will be pardoned, if they get it wrong, they’ll be executed.
+
+How many prisoners can be saved at most if they are allowed to discuss a strategy 
+before the jailer starts asking the colors of their hats?
+
+Answer: 99
+
+2. Suppose a newly-born pair of rabbits, one male, one female, are put in a field. 
+Rabbits are able to mate at the age of one month so that at the end of its second 
+month a female can produce another pair of rabbits. Suppose that rabbits never die 
+and that the female always produces one new pair (one male, one female) every month 
+from the second month on. How many pairs will there be in one year?
+
+Answer: 233
