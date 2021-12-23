@@ -151,3 +151,25 @@ and that the female always produces one new pair (one male, one female) every mo
 from the second month on. How many pairs will there be in one year?
 
 Answer: 233
+
+## Day- 9
+1. The objective of this puzzle to place the largest possible number of coins at points of eight-pointed star shown in the figure below. 
+The coins should be placed one after another, with the following restrictions :
+
+A needs to be placed first on an unoccupied point then moved along a line to another unoccupied point.
+Once the coin has been positioned in this manner, it can not be moved again.
+For example, we can start by placing the first coin on point 6 then moving it to point 1 (denoted 6 --> 1), 
+where the coin will have to remain. We can continue, say, with the following sequence of moves : 7 --> 2, 8 --> 3, 7--> 4, 8 --> 5, 
+which places five coins.
+
+What is the largest possible number of coins that can be placed at points of eight-pointed star?
+
+Answer: 7
+
+2. You’ve got someone working for you for seven days and a gold bar to pay him. The gold bar is segmented 
+into seven connected pieces.
+
+You must give them a piece of gold at the end of every day. What is the fewest number of cuts to the bar 
+of gold that will allow you to pay him 1/7th each day?
+
+Answer: 2 pieces.
