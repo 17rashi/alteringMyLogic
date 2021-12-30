@@ -12,6 +12,7 @@ To guarantee that the flashlight is turned on, what is the minimum number of bat
 
 Answer: 7
 
+------------------------------------------------------------------------------------------------------------------
 
 ## Day-2
 
@@ -32,6 +33,7 @@ Answer: Following steps should follow: bucket, 5 litres-A, 4 litres-B.
 5. Move 5 litres from bucket to A.
 6. Move 3 litres to B and now B has 4 litres and bucket has 3 litres, so mix them in Bucket and now bucket has 7 litres.
 
+------------------------------------------------------------------------------------------------------------------
 
 ## Day-3
 
@@ -45,6 +47,8 @@ Answer: Only once.
 2. Your task is to place 10 coconuts in 5 lines such that each line has 4 coconuts.
 
 Answer: Make a star and place coconuts on every corner/intersection point.
+
+------------------------------------------------------------------------------------------------------------------
 
 ## Day-4
 
@@ -62,6 +66,8 @@ weighings needed to identify the fake coin with a two-pan balance scale without 
 Answer: 3 , First we divide the coins in 6-6 pairs the we find out the weight. We will take the 
 lighter weight and then again repeat the same process. At the end we will get 3 coins and we find weight of two. 
 If weight is equal then the third one is lighter one else one of them was lighter.
+
+------------------------------------------------------------------------------------------------------------------
 
 ## Day-5
 
@@ -82,6 +88,8 @@ So in this whole process how much money did Y loose in the end?
 
 Answer: 500/-
 
+------------------------------------------------------------------------------------------------------------------
+
 ## Day-6
 
 1. Given six distinct colors, in how many unique ways can a six faced cube be painted such that 
@@ -94,6 +102,8 @@ start moving along the edge of the triangle. The probability that none of the an
 What is the value of K?
 
 Answer: 4
+
+------------------------------------------------------------------------------------------------------------------
 
 ## Day-7
 
@@ -132,6 +142,8 @@ Answer: 3 3 8
 8,3,3  - sum = 14
 6,6,2  - sum = 14
 
+------------------------------------------------------------------------------------------------------------------
+
 ## Day-8
 1. 100 prisoners stand in line, one in front of the other, each wearing either a 
 red hat or a blue hat. Every prisoner can see the hats of the people in front but
@@ -152,7 +164,9 @@ from the second month on. How many pairs will there be in one year?
 
 Answer: 233
 
-## Day- 9
+------------------------------------------------------------------------------------------------------------------
+
+## Day-9
 1. The objective of this puzzle to place the largest possible number of coins at points of eight-pointed star shown in the figure below. 
 The coins should be placed one after another, with the following restrictions :
 
@@ -173,3 +187,24 @@ You must give them a piece of gold at the end of every day. What is the fewest n
 of gold that will allow you to pay him 1/7th each day?
 
 Answer: 2 pieces.
+
+------------------------------------------------------------------------------------------------------------------
+
+## Day-10
+
+1. Three couples are on vacation.They need to cross the river to reach their hotel. There are 3 rules which are as follows :
+Rule 1:- The boat can only carry two people at a time. If the third person trying to get in the boat then the boat will sink.
+Rule 2:- The husbands are so jealous that they can not let their wife with another man, without their presence.
+Rule 3:- The boat cannot run on itself. At least one person should be on the boat to go from one side to another.
+
+How many trips does it take them to all get across the river?
+Note: The couples can be identified by their matching color clothes and there is no other way of going to the hotel.
+
+Answer: 11
+
+2. A stick 100 units long needs to be cut into 100 unit pieces. What is the minimum number of cuts required if you 
+are allowed to cut several stick pieces at the same time?
+
+Answer: 7
+
+------------------------------------------------------------------------------------------------------------------
