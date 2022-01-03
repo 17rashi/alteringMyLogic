@@ -34,7 +34,6 @@ int maxDifference(int arr[],int size){
    return res;
 }
 int main(){
-   int max=INT_MIN;
    int arr[]={2,3,10,6,4,8,1};
    int size=sizeof(arr)/sizeof(arr[0]);
    cout<<maxDifference(arr,size)<<endl;
