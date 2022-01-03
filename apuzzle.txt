@@ -208,3 +208,19 @@ are allowed to cut several stick pieces at the same time?
 Answer: 7
 
 ------------------------------------------------------------------------------------------------------------------
+
+## Day-11
+
+1. You are blindfolded and 10 coins are place in front of you on table. You are allowed to touch the coins, but can’t 
+tell which way up they are by feel.You are told that there are 5 coins head up, and 5 coins tails up but not which ones are which.
+Can you make two piles of coins each with the same number of heads up? You can flip the coins any number of times.
+Submit 1 for 'Yes' and 0 for 'No'.
+
+Answer: Yes
+
+2. Five people were eating apples, A finished before B, but behind C. D finished before E, but behind B. 
+What was the finishing order?
+
+Answer: CABDE
+
+------------------------------------------------------------------------------------------------------------------
