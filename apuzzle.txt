@@ -224,3 +224,17 @@ What was the finishing order?
 Answer: CABDE
 
 ------------------------------------------------------------------------------------------------------------------
+
+## Day-12
+
+1. A man has 53 socks in his drawer: 21 identical blue, 15 identical black and 17 identical red. The lights 
+are out and he is completely in the dark. How many socks must he take out to make 100 percent certain he 
+has at least one pair of black socks?
+
+Answer: 40
+
+2. The day before two days after the day before tomorrow is Saturday. What day is it today?
+
+Answer: Friday
+
+------------------------------------------------------------------------------------------------------------------
