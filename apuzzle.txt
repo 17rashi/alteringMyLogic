@@ -238,3 +238,16 @@ Answer: 40
 Answer: Friday
 
 ------------------------------------------------------------------------------------------------------------------
+
+## Day-13
+
+1. Susan and Lisa decided to play tennis against each other. They bet $1 on each game they played. 
+Susan won three bets and Lisa won $5. How many games did they play?
+
+Answer: Eleven
+
+2. If five cats can catch five mice in five minutes, how long will it take one cat to catch one mouse?
+
+Answer: Five
+
+------------------------------------------------------------------------------------------------------------------
