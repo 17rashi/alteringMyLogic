@@ -251,3 +251,17 @@ Answer: Eleven
 Answer: Five
 
 ------------------------------------------------------------------------------------------------------------------
+
+## Day-14
+
+1. Jacob is 12 years old. He is 3 times as old as his brother. How old will Jacob be when he is 
+twice as old?
+
+Answer: 16 years old. 12=3x, 4=x, after 12 years. 12+y=2(4+y), 16.
+
+2. If it takes 2 garage mechanics 3 hours to repair 6 cars, how many mechanics would it take to 
+repair 22 cars in 5 hours?
+
+Answer: 5 mechanics.
+
+------------------------------------------------------------------------------------------------------------------
