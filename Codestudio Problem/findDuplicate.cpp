@@ -35,3 +35,25 @@ int main(){
    cout<<findDuplicate(arr,n)<<endl;
   return 0;
 }
+
+
+//Find all Duplicates, leetcode solution
+
+//https://leetcode.com/problems/find-all-duplicates-in-an-array/
+/*
+class Solution {
+public:
+    vector<int> findDuplicates(vector<int>& nums) {
+        vector<int> V;
+        int len=nums.size();
+        sort(nums.begin(), nums.end());
+        for(int i=0;i<len-1;i++){
+            if(nums[i]==nums[i+1]){
+                V.push_back(nums[i]);
+            }
+        }
+        return V;
+    }
+};
+
+*/
