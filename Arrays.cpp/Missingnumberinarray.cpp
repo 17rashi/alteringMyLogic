@@ -7,8 +7,8 @@ class Solution{
     int MissingNumber(vector<int>& array, int n) {
         // Your code goes here
         sort(array.begin(),array.end());
-        long long int count=1;
-        for(long long int i=0;i<n-1;i++){
+        int count=1;
+        for(int i=0;i<n-1;i++){
             if(array[i]==count){
                 count++;
             }
