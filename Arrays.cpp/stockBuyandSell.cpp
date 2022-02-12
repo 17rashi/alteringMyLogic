@@ -1,19 +1,26 @@
 //stock buy and sell problem
+//https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 #include<bits/stdc++.h>
 using namespace std;
-int maxprofit(int arr[],int size){
+int stockBuyandSell(vector<int> nums){
    int profit=0;
-   for(int i=1;i<size;i++){
-      if(arr[i]>arr[i-1]){
-         profit+=arr[i]-arr[i-1];
+   for(int i=1;i<nums.size();i++){
+      if(nums[i]>nums[i-1]){
+         profit+=(nums[i]-nums[i-1]);
       }
    }
    return profit;
 }
 int main(){
-   int arr[]={1,5,3,8,12};
-   int size=sizeof(arr)/sizeof(arr[0]);
-   cout<<maxprofit(arr,size)<<endl;
+   int n;
+   cin>>n;
+   vector<int> nums;
+   for(int i=0;i<n;i++){
+      int a;
+      cin>>a;
+      nums.push_back(a);
+   }
+   cout<<stockBuyandSell(nums)<<endl;
   return 0;
 }
