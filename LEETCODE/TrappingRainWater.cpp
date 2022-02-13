@@ -1,5 +1,7 @@
 //https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1
 
+//https://leetcode.com/problems/trapping-rain-water/
+
 #include<bits/stdc++.h>
 using namespace std;
 int getWater(int arr[],int n){
