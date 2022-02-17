@@ -1,40 +1,5 @@
 //https://www.codingninjas.com/codestudio/problems/first-and-last-position-of-an-element-in-sorted-array_1082549
 
-/*
-#include<bits/stdc++.h>
-using namespace std;
-void firstAndLastPosition(int arr[],int n,int k){
-   int m,count=0;
-   for(int i=0;i<n;i++){
-      if(arr[i]==k){
-         m=i;
-         count++;
-      }
-   }
-   if(count>0){
-     cout<<(m-count+1)<<" "<<m<<endl;
-   }
-   else{
-      cout<<-1<<" "<<-1<<endl;
-   }
-}
-int main(){
-   int t;
-   cin>>t;
-   while(t--){
-      int n,k;
-      cin>>n>>k;
-      int arr[n];
-      for(int i=0;i<n;i++){
-         cin>>arr[i];
-      }
-      firstAndLastPosition(arr,n,k);
-   }
-  return 0;
-}
-*/ 
-
-
 //Optimised Approach
 
 /*
