@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/first-missing-positive/
+
 #include<bits/stdc++.h>
 using namespace std;
 int firstMissingPositive(vector<int>& nums) {
@@ -27,7 +29,7 @@ int firstMissingPositive(vector<int>& nums) {
     return count;
 }
 int main(){
-   vector<int> nums={1};
+   vector<int> nums={7,8,9,11,12};
    cout<<firstMissingPositive(nums)<<endl;
   return 0;
 }
