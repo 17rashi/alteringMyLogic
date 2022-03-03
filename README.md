@@ -13,4 +13,6 @@ It's been so long I am solving the question but doin' practice like this doesn't
 ```
 ## TOPICS
 #### 1. RECURSION
-#### 2. Arrays
+#### 2. ARRAYS
+#### 3. BINARY SEARCH
+#### 3. SORTING
