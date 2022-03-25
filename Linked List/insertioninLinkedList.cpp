@@ -43,6 +43,16 @@ void insertatMiddle(Node* &head,int place,int data){
    newNode3 -> next = nodeToInsert;
 }
 
+/*insertion after a node*/
+
+void insertAfterNode(Node* &prev_node,int data){
+   Node* nodeToInsert = new Node();
+
+   nodeToInsert -> data = data;
+   nodeToInsert -> next = prev_node -> next;
+   prev_node -> next = nodeToInsert;
+}
+
 /* to Print the Linked List*/
 
 void print(Node *head){
@@ -82,6 +92,11 @@ int main(){
    cout<<endl<<"After inserting at middle : ";
    print(head);
    cout<<endl<<endl;
-   
+
+   cout<<"Insertion after certain node : ";
+   insertAfterNode(second -> next,109); //output: 60 40 10 100 20 90 109 120
+   insertAfterNode(head -> next -> next,1); //output: 60 40 1 10 100 20 90 109 120
+   print(head);
+   cout<<endl<<endl;
   return 0;
 }
