@@ -91,6 +91,16 @@ Node* deleteNode(Node *head_ref, int x)
     }
 */
 
+Node* deleteNode(Node* &head){
+   Node* temp = head;
+   while(temp->next!=NULL){
+      temp = temp->next;
+   }
+   cout<<endl<<temp->data<<endl;
+   temp -> prev -> next  = NULL;
+   delete temp;
+   return head;
+}
 void print(Node* &first){
    Node* temp=first;
    while(temp != NULL){
@@ -131,6 +141,10 @@ int main(){
 
    cout<<endl<<"Insertion after certain position : ";
    insertatPos(first,1,1);
+   print(first);
+
+   cout<<endl;
+   deleteNode(first);
    print(first);
    return 0;
 }
