@@ -19,3 +19,4 @@ It's been so long I am solving the question but doin' practice like this doesn't
 #### 3. BINARY SEARCH
 #### 3. SORTING
 #### 4. Searching
+#### 5. Linked List
