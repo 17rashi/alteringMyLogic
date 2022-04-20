@@ -1,22 +1,26 @@
-# myFocusmode
+# alteringMyLogic 👩‍💻
 In this repository, I have planned to solve more than 1000 coding questions.
 
-It's been so long I am solving the question but doin' practice like this doesn't seems productive now-a-days. So from today, I have just change my rules and mind.
-
-### New Update
+### #New Update
 
 ## DATE: 07-12-2021
 ### 🙌Starting DSA and Competitive coding again.
+I didn't practice for so long.
 
 ### PTR
 ```
-1. Solve 1-2 questions daily and some puzzles.
+1. Solve at least 3 problems daily.
 ```
 
 ## TOPICS
-#### 1. RECURSION
-#### 2. ARRAYS
-#### 3. BINARY SEARCH
-#### 3. SORTING
-#### 4. Searching
-#### 5. Linked List
+#### 1. [RECURSION](https://github.com/17rashi/alteringMyLogic/tree/main/Recursion)
+#### 2. [ARRAYS](https://github.com/17rashi/alteringMyLogic/tree/main/Arrays.cpp)
+#### 3. [BINARY SEARCH](https://github.com/17rashi/alteringMyLogic/tree/main/Binary%20Search)
+#### 4. [SORTING & SORTING](https://github.com/17rashi/alteringMyLogic/tree/main/Sorting%20Algorithm)
+#### 5. [POINTERS](https://github.com/17rashi/alteringMyLogic/tree/main/pointers%20in%20c%2B%2B)
+#### 7. [LINKED LIST](https://github.com/17rashi/alteringMyLogic/tree/main/Linked%20List)
+#### 8. [STACK](https://github.com/17rashi/alteringMyLogic/tree/main/Stack)
+
+##### OTHER: [PRACTICE QUESTIONS](https://github.com/17rashi/alteringMyLogic/tree/main/practice%20question)
+
+NOTE: Apart from these questions I have solved [LeetCode](https://github.com/17rashi/alteringMyLogic/tree/main/LEETCODE) Problems in Separate folder
