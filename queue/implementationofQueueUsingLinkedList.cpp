@@ -4,51 +4,60 @@ class Node{
    public:
    int data;
    Node* next;
+
+   Node(int x){
+      this->data=x;
+      next = NULL;
+   }
 };
 
-Node* front = NULL;
-Node* rear = NULL;
-
-
-void push(int x){
-   Node* newNode= new Node();
-   newNode -> data = x;
-   if(front==size){
-      cout<<"Queue is full"<<endl;
+class Queue{
+   public:
+   Node* rear;
+   Node* front;
+   Queue(){
+      front=NULL;
+      rear=NULL;
    }
-   else{
-      newNode -> next = front1;
-      front1 = newNode;
-      rear++;
-   }
-}
 
-void pop(){
-   Node* nextNode = front1;
-   while(nextNode->next!=NULL){
-      nextNode = nextNode -> next;
+   void enQueue(int data){
+      Node* temp = new Node(data);
+      if(front==NULL && rear==NULL){
+         front = rear = temp;
+         // return;
+      }
+      else{
+         rear->next = temp;
+         rear = temp;
+      }
+      cout<<data<<" is inserted"<<endl;
    }
-   if(rear!=front){
-      Node* temp = nextNode;
-      temp -> next = NULL;
-      front++;
+
+   void deQueue(){
+      if(front==NULL && rear==NULL){
+         cout<<"Queue is empty"<<endl;
+         return;
+      }
+      Node* temp = front;
+      cout<<temp->data<<" is deleted"<<endl;
+      front = front ->next;
+      
+      if(front==NULL){
+         rear=NULL;
+      }
       delete(temp);
    }
-   else{
-      cout<<"Queue is Empty"<<endl;
-   }
-}
+};
+
 
 int main(){
-   push(10);
-   push(30);
-   push(70);
-
-   pop();
-
-   while(front1!=NULL){
-      cout<<front1->data<<endl;
-      front1=front1->next;
-   }
+   Queue q;
+   q.enQueue(20);
+   q.enQueue(40);
+   q.enQueue(10);
+   q.deQueue();
+   q.enQueue(50);
+   q.enQueue(30);
+   q.deQueue();
   return 0;
 }
